@@ -31,6 +31,10 @@ public class DateUtilTest {
         });
     }
 
+    // taken from Util class
+   // public static final String[] monthNumbers = {"01","02","03","04","05","06","07","08","09","10","11","12"};
+   // public static final String[] months = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
+
     @ParameterizedTest
     @ValueSource(ints = {0,1,2,3,4,5,6,7,8,9,10,11})
     public void getMonthFromNumber_returnSuccess(int monthNumber, TestInfo testInfo, TestReporter testReporter){
