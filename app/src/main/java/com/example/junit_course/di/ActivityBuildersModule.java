@@ -1,6 +1,6 @@
 package com.example.junit_course.di;
 
-import com.example.junit_course.NotesListActivity;
+import com.example.junit_course.ui.noteslist.NotesListActivity;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;

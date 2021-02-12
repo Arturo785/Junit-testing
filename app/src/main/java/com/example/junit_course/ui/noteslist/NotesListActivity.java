@@ -1,10 +1,12 @@
-package com.example.junit_course;
+package com.example.junit_course.ui.noteslist;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class NotesListActivity extends AppCompatActivity {
+import dagger.android.support.DaggerAppCompatActivity;
+
+public class NotesListActivity extends DaggerAppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
